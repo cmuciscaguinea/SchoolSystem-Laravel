@@ -28,7 +28,7 @@
                 </div>
             </div>
         @else 
-            <div class="flex items-center">
+            <!-- <div class="flex items-center">
                 @if (Route::has('login'))
                     <div>
                         <a class="flex items-center mr-4 text-sm text-gray-200 font-semibold" href="{{ route('login') }}">
@@ -37,7 +37,7 @@
                         </a>
                     </div>
                 @endif
-            </div>
+            </div> -->
         @endauth
     </div>
 </div>
